@@ -1,3 +1,6 @@
+(Edit made on main branch)
+
+
 ### **Competitive Landscape: Focus Bear vs. Other Productivity Apps**
 
 ### **1. What makes Focus Bear different from these apps?**
