@@ -105,3 +105,13 @@ Poorly named variables like `a`, `b`, `x1`, or `data` make the code harder to re
 
 ### How did refactoring improve code readability?
 Refactoring the `calc(a, b)` example into `calculateRemainingSeconds(totalMinutes, usedMinutes)` immediately made the intent of the function clear. The new names explain that the function works with minutes and converts them to seconds, then returns the remaining time. As a result, the code is easier to scan, requires fewer comments, and is safer to maintain because each variable’s meaning is obvious.
+
+---
+
+## Writing Unit Tests for Clean Code
+
+### How do unit tests help keep code clean?
+Unit tests encourage me to write small, focused functions with clear inputs and outputs. To make a function testable, I have to avoid hidden side effects and keep the logic simple, which aligns with clean code principles. Tests also act as living documentation: by reading the test names and expectations, another developer can quickly understand how a function is supposed to behave.
+
+### What issues did you find while testing?
+When I started writing tests for `calculateRemainingSeconds`, I realised that the original version did not handle negative values or situations where `usedMinutes` was greater than `totalMinutes`. The tests for those edge cases either produced negative results or unexpected behaviour. Refactoring the function to throw an error for negative inputs and clamp the remaining time to zero made the behaviour clearer and more reliable. The tests now verify these cases, so if I accidentally break the logic in the future, the failing tests will alert me immediately.
