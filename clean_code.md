@@ -71,3 +71,21 @@ Breaking down a large function into smaller, single-purpose functions improves c
 
 ### How did refactoring improve the structure of the code?
 The original `processOrder` function mixed validation, calculations, and side effects. After refactoring, each operation was placed in its own helper function (`validateOrder`, `calculateTotal`, `applyDiscount`, etc.). This improved readability and allowed for future changes (like adding new discount types or saving methods) without affecting unrelated parts of the code. The structure now follows the Single Responsibility Principle and supports cleaner, modular development.
+
+
+## Understanding Clean Code Principles
+
+### Simplicity  
+Keep code as simple as possible. Simplicity means doing just what’s necessary — no extra complexity, clever tricks, or unnecessary abstractions. Simple code is easier to read, test, and maintain. Developers should aim for clarity instead of trying to impress with overly complex solutions.
+
+### Readability  
+Readable code is self-explanatory. Anyone (including your future self) should be able to understand what it does without needing comments everywhere. Using clear variable names, consistent indentation, and logical structure improves comprehension. The goal is to make the code communicate intent clearly.
+
+### Maintainability  
+Good code is written for the long term. Maintainable code allows developers to make changes or add new features easily without breaking existing functionality. Writing modular, well-structured functions and avoiding repetition (DRY principle) helps future developers work efficiently.
+
+### Consistency  
+Consistency means following the same coding style, conventions, and patterns throughout a project. Using the same formatting, naming rules, and commenting style makes collaboration easier and avoids confusion. A consistent codebase looks professional and feels predictable.
+
+### Efficiency  
+Efficient code performs well without being over-optimized. The goal is to write clean, performant logic that uses resources wisely but still prioritizes readability. Avoid premature optimization — make the code clear first, then improve performance where necessary.
