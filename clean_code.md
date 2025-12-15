@@ -25,3 +25,26 @@ I replaced multiple conditions with a default parameter (`discount = 0`) and use
 
 ### Reflection
 Refactoring improved readability and reduced unnecessary logic. The new version is shorter, easier to test, and aligns with clean coding practices that emphasize simplicity and clarity.
+
+---
+
+## Commenting & Documentation
+
+### When should you add comments?
+
+Comments are most useful when they explain **why** the code exists, not just **what** it does. I should add comments when:
+- The code implements a non-obvious business rule or requirement.
+- There is a workaround for a bug or limitation in another system or library.
+- The algorithm is complex and a short summary will help future readers.
+- I want to document how to use a function (its parameters, return value, and side effects).
+
+Good comments provide context and intent so another developer can quickly understand the design decisions behind the code.
+
+### When should you avoid comments and instead improve the code?
+
+I should avoid comments when they only repeat what the code already says. In those cases, it is better to improve the code itself by:
+- Renaming variables or functions to be clearer.
+- Breaking a long function into smaller helper functions with meaningful names.
+- Removing dead or commented-out code instead of explaining why it is there.
+
+If a comment is trying to explain confusing code, that is often a signal that the code should be refactored. Clean, well-named functions usually need fewer comments because the intent is already clear.
