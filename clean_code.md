@@ -89,3 +89,19 @@ Consistency means following the same coding style, conventions, and patterns thr
 
 ### Efficiency  
 Efficient code performs well without being over-optimized. The goal is to write clean, performant logic that uses resources wisely but still prioritizes readability. Avoid premature optimization — make the code clear first, then improve performance where necessary.
+
+---
+
+## Naming Variables & Functions
+
+### What makes a good variable or function name?
+A good name is clear, specific, and describes the purpose of the value or behaviour. It should answer “what is this?” or “what does this do?” without needing extra comments. Good names are usually:
+- Descriptive but not overly long (e.g. `totalPrice`, `calculateAverage`)
+- Written in a consistent style (camelCase for variables/functions)
+- Based on the domain language of the problem (e.g. `userId`, `sessionDuration`)
+
+### What issues can arise from poorly named variables?
+Poorly named variables like `a`, `b`, `x1`, or `data` make the code harder to read and easier to misunderstand. They slow down debugging and onboarding, because future developers must constantly trace where values come from. Bad names also increase the risk of bugs when someone misinterprets what a variable represents or reuses it for the wrong purpose.
+
+### How did refactoring improve code readability?
+Refactoring the `calc(a, b)` example into `calculateRemainingSeconds(totalMinutes, usedMinutes)` immediately made the intent of the function clear. The new names explain that the function works with minutes and converts them to seconds, then returns the remaining time. As a result, the code is easier to scan, requires fewer comments, and is safer to maintain because each variable’s meaning is obvious.
