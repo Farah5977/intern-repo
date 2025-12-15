@@ -46,5 +46,19 @@ I should avoid comments when they only repeat what the code already says. In tho
 - Renaming variables or functions to be clearer.
 - Breaking a long function into smaller helper functions with meaningful names.
 - Removing dead or commented-out code instead of explaining why it is there.
-
+- 
 If a comment is trying to explain confusing code, that is often a signal that the code should be refactored. Clean, well-named functions usually need fewer comments because the intent is already clear.
+
+---
+
+## Handling Errors & Edge Cases
+
+### What was the issue with the original code?
+The original `calculateAverage` function assumed that the `numbers` argument was always a valid, non-empty array of numbers. It did not check for `null`, `undefined`, empty arrays, or invalid values. This could easily lead to crashes or `NaN` results if the function was called with unexpected input.
+
+### How did refactoring improve error handling?
+In the refactored version, I added a guard clause at the top of the function to ensure that `numbers` is a non-empty array. I also validated each element and threw clear errors if any value was not a valid number. Instead of failing silently or returning `NaN`, the function now fails fast with informative error messages, which makes bugs easier to detect and fix.
+
+### How does handling errors improve reliability?
+Handling errors and edge cases improves reliability because the code behaves predictably even when inputs are wrong. Guard clauses prevent invalid data from flowing through the rest of the function, and explicit errors make it clear what went wrong. This reduces hidden bugs, protects against unexpected crashes, and makes the behaviour of the function easier to understand and trust in real applications.
+
