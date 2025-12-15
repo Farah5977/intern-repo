@@ -62,3 +62,12 @@ In the refactored version, I added a guard clause at the top of the function to 
 ### How does handling errors improve reliability?
 Handling errors and edge cases improves reliability because the code behaves predictably even when inputs are wrong. Guard clauses prevent invalid data from flowing through the rest of the function, and explicit errors make it clear what went wrong. This reduces hidden bugs, protects against unexpected crashes, and makes the behaviour of the function easier to understand and trust in real applications.
 
+---
+
+## Writing Small, Focused Functions
+
+### Why is breaking down functions beneficial?
+Breaking down a large function into smaller, single-purpose functions improves clarity and maintainability. Each function has a clear responsibility, making it easier to understand, test, and reuse. When each piece does only one thing, debugging and updating the code become much simpler because you can identify which specific function needs changes.
+
+### How did refactoring improve the structure of the code?
+The original `processOrder` function mixed validation, calculations, and side effects. After refactoring, each operation was placed in its own helper function (`validateOrder`, `calculateTotal`, `applyDiscount`, etc.). This improved readability and allowed for future changes (like adding new discount types or saving methods) without affecting unrelated parts of the code. The structure now follows the Single Responsibility Principle and supports cleaner, modular development.
