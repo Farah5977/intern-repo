@@ -1,23 +1,10 @@
 {
   "version": "0.2",
-  "language": "en",
-  "dictionaries": ["softwareTerms"],
-  "ignorePaths": [
-    "node_modules",
-    ".git",
-    ".github",
-    "**/*.png",
-    "**/*.jpg",
-    "**/*.jpeg"
-  ],
+  "language": "en-GB",
   "words": [
-    "FocusBear",
-    "Kanban",
-    "eslint",
-    "prettier",
-    "cspell",
-    "markdownlint",
-    "CI",
-    "CD"
+    "behaviour",
+    "realised",
+    "Tiimo",
+    "Routinery"
   ]
 }
