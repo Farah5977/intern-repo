@@ -1,4 +1,4 @@
-### CI/CD Reflection
+# CI/CD Reflection
 
 ### What is the purpose of CI/CD
 
