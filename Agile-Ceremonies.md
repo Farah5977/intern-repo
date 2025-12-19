@@ -1,6 +1,6 @@
-# Agile Ceremonies & Team Collaboration
+### Agile Ceremonies & Team Collaboration
 
-## Reflection
+### Reflection
 
 ### How do Agile ceremonies help with communication and alignment?
 Agile ceremonies create structured ways for the team to share updates, highlight blockers, coordinate tasks, and review progress. They reduce confusion, maintain alignment, and keep the team synchronized.
@@ -15,7 +15,7 @@ For my role as a **Mac App Developer Intern**, **Daily Stand-ups** are the most 
 
 Fast feedback is key in development, so daily alignment helps me stay productive.
 
-## Task
+### Task
 
 ### Attend a stand-up meeting and observe how updates are shared.
 I reviewed how stand-ups work: each person shares today’s progress, plan, and blockers.
