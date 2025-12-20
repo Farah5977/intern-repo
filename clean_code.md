@@ -115,3 +115,13 @@ Unit tests encourage me to write small, focused functions with clear inputs and 
 
 ### What issues did you find while testing?
 When I started writing tests for `calculateRemainingSeconds`, I realised that the original version did not handle negative values or situations where `usedMinutes` was greater than `totalMinutes`. The tests for those edge cases either produced negative results or unexpected behaviour. Refactoring the function to throw an error for negative inputs and clamp the remaining time to zero made the behaviour clearer and more reliable. The tests now verify these cases, so if I accidentally break the logic in the future, the failing tests will alert me immediately.
+
+---
+
+## Avoiding Code Duplication (DRY)
+
+### What were the issues with duplicated code?  
+The duplicated logic made changes risky because updating one copy could leave other copies inconsistent. It also increased noise in the codebase and made it harder to understand what the “core” logic was.
+
+### How did refactoring improve maintainability?  
+I extracted the repeated logic into a single reusable helper and replaced the duplicated blocks with parameterized function calls. This reduces future update effort (one place to change), improves readability, and lowers the chance of bugs caused by inconsistent fixes.
