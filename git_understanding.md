@@ -33,3 +33,15 @@ Branches help with reviewing code by allowing developers to isolate their change
 
 If two people edit the same file on different branches, Git keeps the changes separate. When the branches are merged, Git may automatically combine the changes, or if the same lines were modified, it will create a merge conflict that must be resolved manually. This prevents accidental overwrites and ensures changes are reviewed.
 
+## Staging vs Committing
+
+### What is the difference between staging and committing?  
+Staging is the step where selected changes are prepared for a commit using `git add`, while committing permanently records those staged changes into the repository’s history. A staged change is not saved until it is committed.
+
+### Why does Git separate these two steps? 
+Git separates staging and committing to give developers more control over what changes are included in a commit. This allows grouping related changes together, reviewing them before committing, and avoiding accidental commits of unfinished or unrelated work.
+
+### When would you want to stage changes without committing? 
+Staging without committing is useful when you want to prepare a set of changes, review them, or wait for additional updates before creating a final commit. It is also helpful when working on multiple tasks and committing them separately.
+
+
