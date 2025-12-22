@@ -24,3 +24,12 @@ Git then automatically checked intermediate commits and identified the following
 795cff58faa166771baf56d469d91e25d530b0ee — "Introduce bug in add function (for git bisect test)"
 
 This demonstrated how `git bisect` efficiently narrows down the exact commit that introduced a regression without manually reviewing every commit.
+
+## Branching and Team Collaboration
+
+Pushing directly to the main branch is problematic because it can introduce bugs or unfinished work into the stable codebase, potentially breaking the project for everyone. It also removes the opportunity for code review and testing before changes are shared.
+
+Branches help with reviewing code by allowing developers to isolate their changes and submit them through pull requests. This enables team members to review, discuss, and test the changes before they are merged into main, improving code quality and reducing risk.
+
+If two people edit the same file on different branches, Git keeps the changes separate. When the branches are merged, Git may automatically combine the changes, or if the same lines were modified, it will create a merge conflict that must be resolved manually. This prevents accidental overwrites and ensures changes are reviewed.
+
