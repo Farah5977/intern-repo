@@ -44,4 +44,25 @@ Git separates staging and committing to give developers more control over what c
 ### When would you want to stage changes without committing? 
 Staging without committing is useful when you want to prepare a set of changes, review them, or wait for additional updates before creating a final commit. It is also helpful when working on multiple tasks and committing them separately.
 
+## Advanced Git Commands
+
+### git checkout main -- <file>
+This command restores a specific file from the main branch without switching branches or affecting other files. It is useful when a file is accidentally modified or broken and needs to be reverted safely.
+
+### git cherry-pick <commit>
+Cherry-pick applies a single commit from another branch to the current branch. This is helpful when only one fix or feature is needed without merging all changes from that branch.
+
+### git log
+The git log command displays the commit history of a repository. It helps developers understand how changes evolved over time and is useful for reviewing work and debugging issues.
+
+### git blame <file>
+Git blame shows who last modified each line in a file and when. It is useful for understanding why changes were made and identifying who to ask about specific code.
+
+### When would you use these in a real project?
+These commands are essential in long-running projects with multiple developers. They help track changes, investigate bugs, recover files safely, and integrate specific fixes without disrupting other work.
+
+### What surprised you while testing these commands?
+I was surprised by how precise Git tools are. Commands like checkout and cherry-pick allow very targeted changes, which makes collaboration safer and reduces the risk of accidental mistakes.
+
+
 
