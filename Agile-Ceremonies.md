@@ -1,4 +1,4 @@
-### Agile Ceremonies & Team Collaboration
+## Agile Ceremonies & Team Collaboration
 
 ### Reflection
 
@@ -15,7 +15,7 @@ For my role as a **Mac App Developer Intern**, **Daily Stand-ups** are the most 
 
 Fast feedback is key in development, so daily alignment helps me stay productive.
 
-### Task
+## Task
 
 ### Attend a stand-up meeting and observe how updates are shared
 I reviewed how stand-ups work: each person shares today’s progress, plan, and blockers.
