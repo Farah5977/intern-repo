@@ -18,3 +18,4 @@ I can improve my workflow by:
 
 <!-- Commit message practice -->
 <!-- commit message practice: overly detailed example -->
+<!-- commit message practice: well-structured example -->
