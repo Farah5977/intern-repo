@@ -14,4 +14,6 @@ I can improve my workflow by:
 - Limiting how many active tasks I work on.  
 - Using "Blocked" when I'm waiting on someone.  
 - Reviewing my board daily to set priorities.  
-- Identifying bottlenecks and improving continuously.  
+- Identifying bottlenecks and improving continuously. 
+
+<!-- Commit message practice -->
