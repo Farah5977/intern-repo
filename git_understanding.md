@@ -65,4 +65,5 @@ These commands are essential in long-running projects with multiple developers. 
 I was surprised by how precise Git tools are. Commands like checkout and cherry-pick allow very targeted changes, which makes collaboration safer and reduces the risk of accidental mistakes.
 
 
+This update was made to practice creating and committing a new branch using GitHub Desktop.
 
