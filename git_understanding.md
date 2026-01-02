@@ -84,7 +84,7 @@ Reviewing an open-source PR showed me how real teams communicate through code re
 ### Practical note (my PR practice)
 I created a new branch (`pr-practice`) from `main`, made a small documentation change, committed it, and pushed it to GitHub using GitHub Desktop. This helped me understand how PR workflows keep changes isolated and reviewable before merging into `main`.
 
-## Git Understanding – Commit Messages Reflection
+## Git Understanding –  Commit Messages Reflection
 
 ### What makes a good commit message
 
