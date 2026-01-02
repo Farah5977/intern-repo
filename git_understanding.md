@@ -84,4 +84,5 @@ Reviewing an open-source PR showed me how real teams communicate through code re
 ### Practical note (my PR practice)
 I created a new branch (`pr-practice`) from `main`, made a small documentation change, committed it, and pushed it to GitHub using GitHub Desktop. This helped me understand how PR workflows keep changes isolated and reviewable before merging into `main`.
 
+This update was made to practice creating and committing a new branch using GitHub Desktop.
 
