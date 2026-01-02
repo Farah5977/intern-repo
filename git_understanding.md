@@ -84,4 +84,27 @@ Reviewing an open-source PR showed me how real teams communicate through code re
 ### Practical note (my PR practice)
 I created a new branch (`pr-practice`) from `main`, made a small documentation change, committed it, and pushed it to GitHub using GitHub Desktop. This helped me understand how PR workflows keep changes isolated and reviewable before merging into `main`.
 
+## Git Understanding – Commit Messages Reflection
+
+### What makes a good commit message
+
+A good commit message is clear, concise, and focused on *why* a change was made rather than just *what* was changed. It should briefly describe the purpose of the commit in the summary line and provide additional context only when necessary. Well-written commit messages make it easier to understand project history and help others (and my future self) quickly identify the intent behind changes.
+
+---
+
+### How does a clear commit message help in team collaboration?
+
+Clear commit messages improve team collaboration by making changes easy to understand during code reviews, debugging, and feature tracking. When teammates can quickly read a commit message and understand its purpose, they spend less time guessing or asking for clarification. This leads to smoother reviews, better communication, and a more maintainable codebase.
+
+---
+
+### How can poor commit messages cause issues late
+
+Poor commit messages, such as vague or overly generic ones, make it difficult to trace why a change was made. This can slow down debugging, make reverting changes risky, and reduce confidence when reviewing project history. Overly detailed messages can also be problematic, as they reduce readability and make important information harder to find.
+
+---
+
+### Reflection Summary
+
+Through this task, I learned the importance of balancing clarity and brevity when writing commit messages. Practicing different commit message styles helped me understand how good commit messages improve readability, collaboration, and long-term project maintenance.
 
