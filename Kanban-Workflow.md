@@ -17,3 +17,4 @@ I can improve my workflow by:
 - Identifying bottlenecks and improving continuously. 
 
 <!-- Commit message practice -->
+<!-- commit message practice: overly detailed example -->
