@@ -64,5 +64,24 @@ These commands are essential in long-running projects with multiple developers. 
 ### What surprised you while testing these commands?
 I was surprised by how precise Git tools are. Commands like checkout and cherry-pick allow very targeted changes, which makes collaboration safer and reduces the risk of accidental mistakes.
 
+## Pull Requests (PRs) Reflection
+
+### Why are PRs important in a team workflow?
+Pull Requests create a safe, structured way for teams to collaborate. Instead of pushing directly to `main`, changes are made on a separate branch and proposed for review. This reduces the risk of breaking production code, makes work easier to track, and creates a clear history of why changes were made. PRs also support shared understanding because teammates can discuss decisions, suggest improvements, and approve changes before they are merged.
+
+### What makes a well-structured PR?
+A well-structured PR is small, focused, and easy to review. It has a clear title that explains what changed, and a description that includes:
+- the purpose of the change (what/why),
+- what was modified,
+- how it was tested or verified,
+- any screenshots or notes if it affects UI/UX,
+- and a link to a related issue (if available).
+Keeping PRs scoped to one goal makes reviews faster, reduces merge conflicts, and improves code quality.
+
+### What did you learn from reviewing an open-source PR?
+Reviewing an open-source PR showed me how real teams communicate through code review. I noticed reviewers often ask for clarification, request small improvements (naming, structure, edge cases), and check consistency with project standards. I also learned that approvals are typically based on both the code changes and the reasoning documented in the PR discussion, not just whether the code “works”.
+
+### Practical note (my PR practice)
+I created a new branch (`pr-practice`) from `main`, made a small documentation change, committed it, and pushed it to GitHub using GitHub Desktop. This helped me understand how PR workflows keep changes isolated and reviewable before merging into `main`.
 
 
