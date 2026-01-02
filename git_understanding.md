@@ -90,19 +90,13 @@ I created a new branch (`pr-practice`) from `main`, made a small documentation c
 
 A good commit message is clear, concise, and focused on *why* a change was made rather than just *what* was changed. It should briefly describe the purpose of the commit in the summary line and provide additional context only when necessary. Well-written commit messages make it easier to understand project history and help others (and my future self) quickly identify the intent behind changes.
 
----
-
 ### How does a clear commit message help in team collaboration?
 
 Clear commit messages improve team collaboration by making changes easy to understand during code reviews, debugging, and feature tracking. When teammates can quickly read a commit message and understand its purpose, they spend less time guessing or asking for clarification. This leads to smoother reviews, better communication, and a more maintainable codebase.
 
----
-
 ### How can poor commit messages cause issues late
 
 Poor commit messages, such as vague or overly generic ones, make it difficult to trace why a change was made. This can slow down debugging, make reverting changes risky, and reduce confidence when reviewing project history. Overly detailed messages can also be problematic, as they reduce readability and make important information harder to find.
-
----
 
 ### Reflection Summary
 
