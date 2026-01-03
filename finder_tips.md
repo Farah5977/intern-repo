@@ -1,11 +1,6 @@
-# Master Finder & File System Navigation
+## Master Finder & File System Navigation
 
-## Overview
-This document lists practical Finder shortcuts, navigation tips, and file system features that help improve productivity when working on macOS. These skills are essential for efficiently managing files and navigating project directories as a developer.
-
----
-
-## Finder Tips & Shortcuts
+### Finder Tips & Shortcuts
 
 1. **Cmd + N** — Open a new Finder window.
 2. **Cmd + Shift + N** — Create a new folder.
